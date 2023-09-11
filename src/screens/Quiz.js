@@ -1,6 +1,7 @@
-import {Alert, Image, SafeAreaView, StyleSheet, Text, View} from 'react-native';
+import {SafeAreaView, StyleSheet, Text, View} from 'react-native';
 import React, {useEffect, useState} from 'react';
 import Option from '../components/Option';
+import Timer from '../components/Timer';
 const data = require('./../data/questions.json');
 
 const Quiz = ({navigation}) => {
@@ -23,9 +24,9 @@ const Quiz = ({navigation}) => {
         setQTimer(state => state - 1);
       }
       if (qTimer === 0) {
-        Alert.alert('Lost!!!', 'You have to answer within 60 seconds', [
-          {text: 'RESTART', onPress: () => navigation.navigate('Start')},
-        ]);
+        setQuestionIndex(questionIndex + 1);
+        setQTimer(60);
+        setNQTimer(5);
       }
     };
 
@@ -43,7 +44,6 @@ const Quiz = ({navigation}) => {
       navigation.navigate('Score', {
         score: score,
       });
-      console.log(score);
     }
   }, [questionIndex, score]);
 
@@ -52,7 +52,7 @@ const Quiz = ({navigation}) => {
     if (currentQuestion.answer === index + 1) {
       setScore(prev => prev + 1);
     }
-    
+
     const timerId = setInterval(() => {
       setNQTimer(state => state - 1);
     }, 1000);
@@ -71,23 +71,8 @@ const Quiz = ({navigation}) => {
       <View style={styles.headerContainer}>
         <Text style={styles.headerText}>Question {questionIndex + 1}</Text>
 
-        <View style={styles.timerContainer}>
-          <Image
-            style={styles.timerIcon}
-            source={require('./../assets/icons/timer.png')}
-            tintColor={'#fff'}
-          />
-          <Text style={styles.timerText}>{nqTimer}</Text>
-        </View>
-
-        <View style={styles.timerContainer}>
-          <Image
-            style={styles.timerIcon}
-            source={require('./../assets/icons/timer.png')}
-            tintColor={'#fff'}
-          />
-          <Text style={styles.timerText}>{qTimer}</Text>
-        </View>
+        <Timer time={nqTimer} />
+        <Timer time={qTimer} />
       </View>
 
       <View style={styles.mcqContainer}>
@@ -127,27 +112,6 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontWeight: 'bold',
     fontSize: 18,
-  },
-
-  timerContainer: {
-    borderColor: '#fff',
-    borderWidth: 1,
-    borderRadius: 8,
-    padding: 4,
-    paddingHorizontal: 8,
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-
-  timerIcon: {
-    height: 20,
-    width: 20,
-    marginRight: 8,
-  },
-
-  timerText: {
-    color: '#fff',
-    fontSize: 16,
   },
 
   mcqContainer: {
