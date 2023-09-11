@@ -1,0 +1,226 @@
+{
+	"questions": [
+		{
+			"id": 1,
+			"question": "Which of the following countries has the largest population?",
+			"options": [
+				"India",
+				"United States",
+				"Indonesia",
+				"Pakistan",
+				"Brazil",
+				"China"
+			],
+			"answer": 6
+		},
+		{
+			"id": 2,
+			"question": "What is the chemical symbol for silver?",
+			"options": [
+				"Si",
+				"Sr",
+				"Sn",
+				"Ag",
+				"Au",
+				"Pt",
+				"Sb"
+			],
+			"answer": 4
+		},
+		{
+			"id": 3,
+			"question": "Which of the following countries does not have a monarchy?",
+			"options": [
+				"United Kingdom",
+				"Spain",
+				"Canada",
+				"Germany",
+				"Japan",
+				"Saudi Arabia",
+				"Sweden",
+				"Australia"
+			],
+			"answer": 4
+		},
+		{
+			"id": 4,
+			"question": "Who painted the famous artwork 'The Last Supper'?",
+			"options": [
+				"Pablo Picasso",
+				"Vincent van Gogh",
+				"Michelangelo",
+				"Claude Monet",
+				"Leonardo da Vinci",
+				"Salvador Dalí",
+				"Johannes Vermeer",
+				"Rembrandt"
+			],
+			"answer": 5
+		},
+		{
+			"id": 5,
+			"question": "How many bones are in the human body?",
+			"options": [
+				"198",
+				"206",
+				"214",
+				"176",
+				"224",
+				"190",
+				"240",
+				"182"
+			],
+			"answer": 2
+		},
+		{
+			"id": 6,
+			"question": "Who is the author of the 'Lord of the Rings' trilogy?",
+			"options": [
+				"George R.R. Martin",
+				"C.S. Lewis",
+				"J.K. Rowling",
+				"Suzanne Collins",
+				"Stephen King",
+				"Harper Lee",
+				"Charles Dickens",
+				"J.R.R. Tolkien",
+				"Ernest Hemingway"
+			],
+			"answer": 8
+		},
+		{
+			"id": 7,
+			"question": "What is the capital city of Australia?",
+			"options": [
+				"Sydney",
+				"Melbourne",
+				"Perth",
+				"Brisbane",
+				"Canberra",
+				"Adelaide",
+				"Darwin",
+				"Hobart"
+			],
+			"answer": 5
+		},
+		{
+			"id": 8,
+			"question": "Which of the following elements is a noble gas?",
+			"options": [
+				"Oxygen",
+				"Nitrogen",
+				"Helium",
+				"Sodium",
+				"Potassium",
+				"Calcium",
+				"Iron",
+				"Copper"
+			],
+			"answer": 3
+		},
+		{
+			"id": 9,
+			"question": "Who wrote the novel 'Pride and Prejudice'?",
+			"options": [
+				"Jane Austen",
+				"Charlotte Brontë",
+				"Emily Dickinson",
+				"Virginia Woolf",
+				"F. Scott Fitzgerald",
+				"George Orwell",
+				"Ernest Hemingway",
+				"Mark Twain"
+			],
+			"answer": 1
+		},
+		{
+			"id": 10,
+			"question": "Which of the following sports is not part of the Olympic Games?",
+			"options": [
+				"Basketball",
+				"Tennis",
+				"Cycling",
+				"Swimming",
+				"Gymnastics",
+				"Athletics",
+				"Cricket",
+				"Volleyball",
+				"Wrestling"
+			],
+			"answer": 7
+		},
+		{
+			"id": 11,
+			"question": "What is the chemical formula for carbon dioxide?",
+			"options": [
+				"CO",
+				"CO3",
+				"C2O",
+				"C2O3",
+				"C3O",
+				"C3O2",
+				"CO2"
+			],
+			"answer": 7
+		},
+		{
+			"id": 12,
+			"question": "Who painted the famous artwork 'The Starry Night'?",
+			"options": [
+				"Leonardo da Vinci",
+				"Pablo Picasso",
+				"Vincent van Gogh",
+				"Claude Monet",
+				"Salvador Dalí",
+				"Michelangelo",
+				"Frida Kahlo",
+				"Georgia O'Keeffe"
+			],
+			"answer": 3
+		},
+		{
+			"id": 13,
+			"question": "Which of the following cities is located in Canada?",
+			"options": [
+				"Sydney",
+				"Vancouver",
+				"Auckland",
+				"Cape Town",
+				"Buenos Aires",
+				"Tokyo",
+				"Moscow",
+				"Rome"
+			],
+			"answer": 2
+		},
+		{
+			"id": 14,
+			"question": "Who was the first person to walk on the moon?",
+			"options": [
+				"Buzz Aldrin",
+				"Yuri Gagarin",
+				"Alan Shepard",
+				"John Glenn",
+				"Neil Armstrong",
+				"Michael Collins",
+				"Pete Conrad"
+			],
+			"answer": 5
+		},
+		{
+			"id": 15,
+			"question": "What is the chemical symbol for potassium?",
+			"options": [
+				"P",
+				"Ka",
+				"Ko",
+				"Pt",
+				"Kn",
+				"Ke",
+				"K",
+				"Ki"
+			],
+			"answer": 7
+		}
+	]
+}
